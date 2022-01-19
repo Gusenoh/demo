@@ -1,12 +1,55 @@
-Find legal information and resources you need for your NortonLifeLock products and services.
-Please do not reply to this email
+Uploading Important or very helpful information for testing:
+=============================================================
+7) Data Provider Testing using @DataProvider Annotation
 
-Login to your account
+i) Read Test Data (String Type Data) from Excel file and conduct Data Driven Test for Admin Login Funtionality
 
-Unsubscribe from emails
+ii) Read Test Data(Integer Type Data) from Excel file and conduct Data Driven Testing
+----------------------------------------------------
+Java programming has 3 types of feature support
+i)Built-in
+conditional statements,
+loops'
+Arrays
+System.out.prinLn();
 
-Contact us
+ii) Predifined(import and use)
 
-This email was sent to enoh_a@yahoo.com as you agreed to receive relevant jobs from totaljobs . It is linked to your personal jobseeker account and meant specifically for you so please do not share. Read our privacy policy here
+File Class,
+Scanner,
+Etc.....
 
-Totaljobs Group, Blue Fin, 110 Southwark Street, London SE1 0TA Registered in England & Wales under company number 04269861 
+iii) External Features(download 3rd party Jars, add to Java project, import in the Java Class nd use)
+Excel.. Jar from the internet
+SQL Jar Etc........
+--------------------------------------------------------
+Admin Login Funtionality
+i)Launch the browser
+ii)Navigate to the gcrshop Admin interface("http://www.gcrit.com/build3/admin/")
+iii)Enter Username
+iv)enter password
+v)Click "Login" Button
+-----------------------
+Verification Point/s
+
+Capture the URL after login and compare with Expected
+
+Expected URL:
+"http://www.gcrit.com/build3/admin/index.php"
+
+Input Data/Test Data:
+Ref: input.xls
+
+-------------------------------------------------------
+
+Steps for Data Driven Testing :
+i) create Selenium Test Case
+ii) Creat Test Data File(Excel File)
+ii) Download Excel Jar file from Internet, Add to Java project in Eclipse IDE Import nd use
+iv)Import Test Data from Excell and connect the Data to the Test Case
+-----------------------------------------------------
+
+Selenium Data driven Test Case
+
+
+
